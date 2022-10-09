@@ -13,11 +13,19 @@ header {
     background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
     background-size: cover;
     color: white;
+    border-radius: 0.75em;
+    padding: 10px;
+    box-shadow: 3px 3px 3px grey;
+    text-shadow: 5px 5px 3px seagreen;
 }
 
 /* added a linear background to the articles section */
 article {
     background-image: linear-gradient(white, lightgrey);
+    border-radius: 0.75em;
+    padding: 20px;
+    box-shadow: 3px 3px 3px grey;
+    margin-bottom: 10px;
 }
 
 /* got rid of the underline and changed the color */
@@ -25,3 +33,16 @@ a {
     color: lightseagreen;
     text-decoration: none;
 }
+
+img {
+    display: block;
+    height: 20%;
+    border: lightseagreen;
+    border-radius: 0.75em;
+    margin-bottom: 10px;
+    box-shadow: 8px 5px 3px grey;
+}
+
+#subheading {
+    border-bottom: solid 3px lightseagreen;
+} 
